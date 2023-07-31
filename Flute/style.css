@@ -1,0 +1,135 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Secular+One&display=swap');
+
+
+ body {
+   background-image: url(logo/bg.jpeg);
+
+   background-repeat: no-repeat;
+   background-size: 1536px 745px;
+ }
+
+ nav ul {
+   display: flex;
+   list-style-type: none;
+   height: 37px;
+   background-color: rgb(64, 15, 101);
+   color: white;
+
+ }
+
+ nav ul li {
+   padding: 6px 12px;
+   font-size: 24px;
+   text-align: center;
+   cursor: pointer;
+   outline: none;
+   color: #fff;
+ }
+
+ nav ul li:hover {
+   background-color: #3e8e41
+ }
+
+ nav ul li:active {
+   background-color: #3e8e41;
+   box-shadow: 0 5px #666;
+   transform: translateY(4px);
+ }
+
+
+ .brand img {
+   width: 100px;
+   padding: 0 8px;
+   top: -29px;
+   right: 20px;
+   position: relative;
+ }
+
+ .bottom {
+   position: sticky;
+   height: 100px;
+   background-color: rgb(167, 75, 5);
+   bottom: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+
+ .icons {
+   margin-top: 15px;
+ }
+
+ .icons i {
+   cursor: pointer;
+ }
+
+ .container {
+   min-height: 70vh;
+   background-color: black;
+   color: white;
+   font-family: 'Secular One', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 75%;
+   border-radius: 25px;
+   padding: 15px;
+   background-image: url(logo/bgg.jpg);
+   background-size: 1170px 570px;
+
+ }
+
+ #myrange {
+
+   width: 85vw;
+   cursor: pointer;
+ }
+
+
+ .songItem {
+   height: 50px;
+   display: flex;
+   background-color: rgb(121, 156, 6);
+   width: 100%;
+   color: black;
+   margin: 12px 0;
+   justify-content: space-between;
+   align-items: center;
+   border-radius: 34px;
+ }
+
+ .songItem img {
+   width: 50px;
+   margin: 0 23px;
+ }
+
+ .sname {
+   padding-right: 17px;
+ }
+
+ .timelog {
+   padding-inline: 7px;
+ }
+
+ .songlistplay {
+   padding-inline: 10px;
+ }
+
+ #c1 {
+   display: flex;
+ }
+
+ #c2 {
+   display: flex;
+ }
+
+ .sinfo{
+  position: absolute;
+  left:6vw;
+  font-family: 'Secular One', sans-serif;
+ }
+
+ .sinfo img{
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+ }

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="logo/logo.png" sizes="76x76">
+  <title>Flute</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav>
+
+    <ul>
+      <li class="brand"><img src="D:\Projects\Flute\logo\logo.png" width="100" height="100"></li>
+      <li>Favourite</li>
+      <li>Album</li>
+      <li>Recent</li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
+    <div class="SongsList">
+      <h1>My Favourite Songs</h1>
+      <div class="column" id="c1">
+
+        <div class="row" id="r1">
+          <div class="songItem">
+            <img src="D:\Projects\Flute\logo\c1.jpg" alt="1">
+            <span class="sname">
+              <h4>Agar Tum Mil Jao</h4>
+            </span>
+            <span class="timelog">
+              <h4 style="top:3px;">06.00</h4>
+            </span>
+            <span class="songlistplay"><i id="0" class="songItemPlay fa-solid fa-play fa-2x"></i></span>
+          </div>
+        </div>
+
+        <div class="row" id="r2">
+          <div class="songItem">
+            <img src="D:\Projects\Flute\logo\c2.jpg" alt="1">
+            <span class="sname">
+              <h4>Marjawa</h4>
+            </span>
+            <span class="timelog">
+              <h4 style="top:3px;">05.32</h4>
+            </span>
+            <span class="songlistplay"><i id="1" class="songItemPlay fa-solid fa-play fa-2x"></i></span>
+          </div>
+        </div>
+
+        <div class="row" id="r3">
+          <div class="songItem">
+            <img src="D:\Projects\Flute\logo\c3.jpg" alt="1">
+            <span class="sname">
+              <h4>Main Agar Kahoon</h4>
+            </span>
+            <span class="timelog">
+              <h4 style="top:3px;">05.10</h4>
+            </span>
+            <span class="songlistplay"><i id="2" class="songItemPlay fa-solid fa-play fa-2x"></i></span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="column" id="c2">
+        <div class="row" id="r4">
+          <div class="songItem">
+            <img src="D:\Projects\Flute\logo\c4.jpg" alt="1">
+            <span class="sname">
+              <h4>Aao Sunao</h4>
+            </span>
+            <span class="timelog">
+              <h4 style="top:3px;">06.28</h4>
+            </span>
+            <span class="songlistplay"><i id="3" class="songItemPlay fa-solid fa-play fa-2x"></i></span>
+          </div>
+        </div>
+
+        <div class="row" id="r5">
+          <div class="songItem">
+            <img src="D:\Projects\Flute\logo\c5.jpeg" alt="1">
+            <span class="sname">
+              <h4>Tum Agar Manaoge</h4>
+            </span>
+            <span class="timelog">
+              <h4 style="top:3px;">03.50</h4>
+            </span>
+            <span class="songlistplay"><i id="4" class="songItemPlay fa-solid fa-play fa-2x"></i></span>
+          </div>
+        </div>
+
+        <div class="row" id="r6">
+          <div class="songItem">
+            <img src="D:\Projects\Flute\logo\c6.jpg" alt="1">
+            <span class="sname">
+              <h4>Tum Kya Mile</h4>
+            </span>
+            <span class="timelog">
+              <h4 style="top:3px;">03.16</h4>
+            </span>
+            <span class="songlistplay"><i id="5" class="songItemPlay fa-solid fa-play fa-2x"></i></span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="SongsThumbnil"></div>
+  </div>
+
+  <div class="bottom">
+    <input type="range" name="range" id="myrange" min="0" value="0" max="100">
+    <div class="icons">
+      <i class="fa-solid fa-backward fa-3x" id="previous"></i>
+      <i class="fa-solid fa-play fa-3x" id="masterPlay"></i>
+      <i class="fa-solid fa-forward fa-3x" id="next"></i>
+    </div>
+
+    <div class="sinfo">
+      <img src="logo/music.gif" width="50px" alt="" id="gif"> <span id="masterSname">Agar Tum Mil Jao</span>
+    </div>
+
+
+
+  </div>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/0e69038b47.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
